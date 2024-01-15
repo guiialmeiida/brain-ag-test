@@ -5,3 +5,4 @@ db
 package-lock.json
 
 .env
+data
