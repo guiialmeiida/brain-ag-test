@@ -50,11 +50,13 @@ Para executar o projeto localmente, siga as etapas abaixo:
 
 1. Certifique-se de ter o Node.js e o Docker instalados em sua máquina.
 2. Clone este repositório.
-3. Acesse o diretório do projeto via terminal.
-4. Execute o comando `npm install` para instalar as dependências.
-5. Execute o comando `docker-compose up` para iniciar o container do banco de dados PostgreSQL.
-6. Execute o comando `npm run migrate` para criação das migrations.
-7. Execute o comando `npm run start` para iniciar a aplicação.
+3. Substitua as variaveis de ambiente.
+4. Acesse o diretório do projeto via terminal.
+5. Execute o comando `npm install` para instalar as dependências.
+6. Execute o comando `docker-compose up -d` para iniciar o container do banco de dados PostgreSQL.
+7. Execute o comando `npm run migrate` para criação das migrations.
+8. Execute o comando `npm run build` para buildar a aplicação.
+9. Execute o comando `npm run start` para iniciar a aplicação.
 
 ## Configuração
 
